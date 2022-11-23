@@ -1,4 +1,4 @@
-import {db} from '../db.js';
+import {db} from '../../db/db.js';
 
 export const getEmployees = async (req, res) =>{
    const [rows] = await db.query('SELECT * FROM images');
